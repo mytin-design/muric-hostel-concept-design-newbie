@@ -1,0 +1,27 @@
+<!--This is the sign up page-redirect to server-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Muric</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="log-form.css">
+    </head>
+    <body>
+        <div class="UserSignUp">
+        <form class="sign-up" action="localhost:8000">
+            <input type="text" name="f-name" tabindex="0" id="f-name" placeholder="First Name" required><br>
+            <input type="text" name="s-name" id="s-name" placeholder="Surname" required><br>
+            <input type="text" name="n-name" id="n-name" placeholder="User Name" required><br>
+            <input type="password" name="passcode" id="initial-passcode" placeholder="Passcode" minlength="8" required><br>
+            <input type="password" name="passcode" id="confirm-passcode" placeholder="Confirm Passcode" minlength="8" required><br>
+            <div class="redirect-login">
+            <p >Already a User?<a href="login-page" style="color: #000;">Log In</a></p>
+            </div>
+            <div class="terms">
+            <input type="checkbox" name="agree" id="agree"><span>Agree to <a href="terms" style="color: #000;">our Terms & Conditions</a></span><br>
+            </div>
+            <input type="submit" name="u-details" id="u-details" value="Welcome to Muric">
+        </form>
+        </div>
+    </body>
+</html>

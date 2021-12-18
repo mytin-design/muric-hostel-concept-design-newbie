@@ -1,0 +1,73 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: repeating-linear-gradient(23deg, #877887, #fddffd, #411441);
+    background-image: url('hostel4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    padding: 20px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 35%;
+    border-radius: 10px;
+    box-shadow: 8px 8px 28px 8px #eddede;
+    /*background-image: repeating-linear-gradient(32deg, #eddedd, #433443, #addaad);
+    background-image: linear-gradient(32deg, teal, navy);*/
+    background-image: linear-gradient(23deg, navy, teal);
+    background-image: radial-gradient(circle, gray, #fff);
+    color: #000;
+}
+
+.sign-up input {
+    background-color: transparent;
+    color: navy;
+    font-weight: bolder;
+    line-height: 20px;
+    border: none;
+    height: 50px;
+    width: 70%;
+    border-radius: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#u-details {
+    border-radius: 10px;
+    color: white;
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    margin-top: 70px;
+}
+#u-details:hover {
+    background-image: repeating-linear-gradient(23deg, navy, teal);
+    cursor: pointer;
+}
+#agree {
+    height: 20px;
+    width: 40px;
+}
+.terms {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+

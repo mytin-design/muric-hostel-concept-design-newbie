@@ -1,0 +1,18 @@
+<!-- This is the login page - can be inherited for other sections where possible-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Muric</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="login-page.css">
+    </head>
+    <body>
+        <form id="login" action="http://192.168.0.254" method="post">
+            <label for="login">Welcome to Muric Hostels</label><br>
+            <input type="text" name="username" id="username" placeholder="Please Input Username" required><br>
+            <input type="password" minlength="8" name="passcode" id="passcode" placeholder="Please Input Passcode" required><br>
+            <input type="submit" value="Access Muric Dashboard" id="log-on"><br>
+            <abbrev title="Reset Password - 3 tries!"><a href="reset.html" style="text-decoration: none; font-weight: 900; background-color: white; color: black;">Forgot password?</a></abbrev>
+        </form>
+    </body>
+</html>

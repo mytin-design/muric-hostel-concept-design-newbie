@@ -1,0 +1,153 @@
+<!-- IDEA: Concept web-design for MURIC HOSTELS -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Muric Hostels</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Denis-denismytin@gmail.com">
+  <meta name="description" content="Muric Hostels is a student living facility">
+  <meta name="keywords" content="Muric, Amenities, students, water, wifi, DSTV, hostels, rentals, cheap houses">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <link rel="stylesheet" href="muric-conceptv1-2.css" type="text/css">
+</head>
+<body>
+  <header class="head-stuff">
+      <!--make the nav a flex item-flex-direction row-->
+      <nav class="muric-items">
+        <a href="muric-concept.html" target="_self">Home</a>
+        <a href="amenities.html" target="_self">Amenities</a>
+        <a href="manage.html" target="_self">Management</a>
+        <a href="students.html" target="_self">Students Local</a>
+      </nav>
+      <nav class="log-setup">
+        <a href="log-form.html" target="_blank">Sign Up</a>
+        <a href="login-page.html" target="_blank">Log In</a>
+      </nav>
+  </header>
+  <main class="root-container">
+
+
+    <!--Create the nested divs as columns using display: flex in the following div-->
+    <div class="intro-sec">
+      <!--make the following div a flex item-flex-direction row-->
+
+      <div id="book-box">
+        <h1 class="h1">MURIC HOSTELS</h1>
+        <h3>Affordable, Clean, Secure</h3>
+        <input id="book-button" type="button" name="book" value="Book Now">
+      </div>
+      <video class="showcase" src="./studying.mp4" muted autoplay loop></video>
+      <div id="book" class="home-explain">
+        <p class="exp">A home away from home</p>
+      </div>
+    </div>
+    <!--Create the nested divs as columns using display: flex; in the following div-->
+    <div class="all">
+
+    <div class="cards amenity-one-cont">
+      <!--a grid can make the following div box amazing-->
+      <div class="card internet-amenity">
+          <h3>Fast & Unlimited Internet</h3>
+        <img class="picture" src="./cute23.jpg" width="100" height= "150" alt="Student using internet">
+        <p>Interact with friends, watch movies, research on your homeworks</p>
+      </div>
+      <div class="card afford-amenity">
+        <h3>No deposit required!</h3>
+        <img src="./hostel4.jpg" class="picture" width="100" height= "150" alt="a hostel room">
+        <p>Just pay your monthly rent & that's it!</p>
+      </div>
+    </div>
+
+
+
+    <div class="cards amenity-two-cont">
+      <div class="card water-amenity">
+        <h3>3 Water Providers</h3>
+        <img src="./hostel4.jpg" class="picture" alt="A bathroom shower">
+        <p>Water is part of your monthly rent!</p>
+      </div>
+      <div class="card dstv-amenity">
+        <h3>24 Hour Access to Dstv</h3>
+        <img src="./hostel4.jpg" width="100" class="picture" height= "150" alt="TV Showing a love program">
+        <p>Done with school work? Watch your any of your favorite program, anytime</p>
+      </div>
+    </div>
+
+
+    <div class="cards amenity-three-cont">
+      <div class="card street-amenity">
+      <h3>Convinient Shopping Center</h3>
+      <img src="./hostel4.jpg" width="100" class="picture" height= "150" alt="Shopping">
+      <p>Meet friends who study with you around neigboring apartments</p>
+    </div>
+    <div class="card manage-box">
+      <h3>Reach Out to Caretaker 24/7</h3>
+      <img src="./hostel4.jpg" width="100" class="picture" height= "150" alt="Caretaker Photo">
+      <p>Having an electrical fault?  <abbr title="07546643453"><button>Caretaker</button></abbr></p>
+      <p>Any concerns with caretaker? <abbr title="078293829"><button>Manager</button></abbr> </p>
+    </div>
+  </div>
+
+
+  <div class="cards amenity-four-cont">
+    </div>
+
+</div>
+    <div class="review-us">
+
+      <section class="student-prof">
+        <img src="./hostel4.jpg" width="150" height= "150" class="student-profile" alt="student">
+        <div class="student-info">
+        <p>Linsey Lindah</p>
+        <p>Room 22</p>
+        </section>
+      <section>
+        <blockquote>&ldquo; Everything in one place! &rdquo;</blockquote>
+      </section>
+      
+      </div>
+      </section>
+    </div>
+  
+  </main>
+
+
+  <footer>
+
+    <div class="contacts">
+      <address>
+        <span><strong>Manager</strong></span><br>
+        <span>071944041</span><br>
+        <span>manager@mail.com</span><br>
+        <span><strong>Caretaker</strong></span><br>
+        <span>0703737970</span><br>
+        <span>caretaker@mail.com</span>
+      </address>
+    </div>
+
+    <div class="about-us">
+    <div class="about-book">
+      <a href="about-muric.html" target="_self">About Us</a><br>
+      <input type="button" name="book" id="book-btn" value="Book Now!">
+    </div>
+
+      <form id="more" action="https://murichostels.com">
+        <p>Need more information? Send us your email</p><br>
+        <label for="more">Tell us what you would like to know</label><br>
+
+        <input type="email" name="email" id="e-more" placeholder="name@mail.com" required>
+        <br>
+        <textarea class="tarea" cols="20" rows="5" placeholder="I have concerns about ..."></textarea><br>
+
+        <input type="submit" name="email" value="Send" id="submit-email">
+      </form>
+
+
+    </div>
+    <div class="company-legend">
+      <h5>Muric Hostels 2021</h5>
+    </div>
+  </footer>
+</body>
+</html>
